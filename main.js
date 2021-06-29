@@ -9,7 +9,7 @@ function getiPhoneModel() {
       var info = context.getExtension("WEBGL_debug_renderer_info");
       if (info) {
         var renderer = context.getParameter(info.UNMASKED_RENDERER_WEBGL);
-        alert(renderer);
+      
       }
     }
   }
