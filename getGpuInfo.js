@@ -15,7 +15,7 @@ document.getElementById("renderer").innerHTML = "Renderer Info:&nbsp&nbsp" + "" 
 
 function getUserAgent() {
     var x = navigator.userAgent.match(/[^;\s][^;]+?(?=\s+build\b)/i);
-    document.getElementById("userAgent").innerHTML ="User Agent Info:&nbsp&nbsp " + x;
+    document.getElementById("userAgent").innerHTML ="Device Name:&nbsp&nbsp " + x;
     var y = navigator.deviceMemory;
     document.getElementById("deviceMemory").innerHTML ="Device Memory:&nbsp&nbsp " + y + "GB";
     var z = navigator.hardwareConcurrency;
