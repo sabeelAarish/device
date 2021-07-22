@@ -46,19 +46,29 @@
             background-color: white;
             color: rgb(41, 40, 40);
         }
-          .keypad-container {
+    .keypad-container {
             display: flex;
+            flex-direction: column;
             width: 80%;
-            height: 200px;
+            height: 400px;
             margin: auto;
             margin-top: 50px;
-            border: 1px solid black;
+            border: 1px solid white ;
+            text-align: center;
             
 
         }
         .keypadBox {
             width: 50%;
-            margin-left: 100px;
+            margin: auto;
+            height: auto;
+        
+            
+        }
+        .keypadBox p {
+            color: white;
+            padding: 10px;
+            
         }
     </style>
     
@@ -80,6 +90,7 @@
    
            
      <div class="keypad-container">
+        <p style="color: white">Qwerty vs Numeric Keypad Test</p>
     
         <div class="keypadBox">
             <p>Qwerty Keypad </p>
